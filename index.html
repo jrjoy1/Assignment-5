@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <main id="home-screen" class="m-20 hidden">
+    <main id="home-screen" class="m-20">
         <header>
             <!-- navbar -->
             <nav>
@@ -60,8 +60,9 @@
         </header>
         <!-- banner -->
         <section>
-            <div class="hero min-h-screen rounded-2xl" style="background-image: url(images/banner.png);">
-                <div class="hero-overlay bg-opacity-15"></div>
+            <div class="hero min-h-screen rounded-2xl">
+                <img class="w-full" src="images/banner.png" alt="">
+                <div class="hero bg-opacity-15"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="">
                         <h1 class="mb-5 text-6xl text-white font-bold">End-to-End Travel with
@@ -130,7 +131,7 @@
         </section>
     </main>
     <!-- greenline Paribahan -->
-    <main id="ticket-section" class="border-t-2 border-green-400 m-1 rounded-t-[150px] hidden">
+    <main id="ticket-section" class="border-t-2 border-green-400 m-1 rounded-t-[150px]">
         <section class="mx-20 mt-20">
             <div>
                 <h1 class="text-4xl font-extrabold text-center">Greenline Paribahan</h1>
@@ -222,16 +223,16 @@
                         </div>
                         <div class="">
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">A1</kbd>
-                                <kbd class="kbd btn w-11">A2</kbd>
-                                <kbd class="kbd btn w-11">A3</kbd>
-                                <kbd class="kbd btn w-11">A4</kbd>
+                                <kbd id="A1" class="kbd btn w-11" onclick="btn_id(0)">A1</kbd>
+                                <kbd id="A2" class="kbd btn w-11" onclick="btn_id(1)">A2</kbd>
+                                <kbd id="A3" class="kbd btn w-11 "onclick="btn_id(2)">A3</kbd>
+                                <kbd id="A4" class="kbd btn w-11"onclick="btn_id(3)">A4</kbd>
                             </div>
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">B1</kbd>
-                                <kbd class="kbd btn w-11">B2</kbd>
-                                <kbd class="kbd btn w-11">B3</kbd>
-                                <kbd class="kbd btn w-11">B4</kbd>
+                                <kbd id="B1" class="kbd btn w-11">B1</kbd>
+                                <kbd id="B2" class="kbd btn w-11">B2</kbd>
+                                <kbd id="B3" class="kbd btn w-11">B3</kbd>
+                                <kbd id="B4" class="kbd btn w-11">B4</kbd>
                             </div>
                         </div>
                     </div>
@@ -242,16 +243,16 @@
                         </div>
                         <div class="">
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">C1</kbd>
-                                <kbd class="kbd btn w-11">C2</kbd>
-                                <kbd class="kbd btn w-11">C3</kbd>
-                                <kbd class="kbd btn w-11">C4</kbd>
+                                <kbd id="C1" class="kbd btn w-11">C1</kbd>
+                                <kbd id="C2" class="kbd btn w-11">C2</kbd>
+                                <kbd id="C3" class="kbd btn w-11">C3</kbd>
+                                <kbd id="C4" class="kbd btn w-11">C4</kbd>
                             </div>
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">D1</kbd>
-                                <kbd class="kbd btn w-11">D2</kbd>
-                                <kbd class="kbd btn w-11">D3</kbd>
-                                <kbd class="kbd btn w-11">D4</kbd>
+                                <kbd id="D1" class="kbd btn w-11">D1</kbd>
+                                <kbd id="D2" class="kbd btn w-11">D2</kbd>
+                                <kbd id="D3" class="kbd btn w-11">D3</kbd>
+                                <kbd id="D4" class="kbd btn w-11">D4</kbd>
                             </div>
                         </div>
                     </div>
@@ -262,16 +263,16 @@
                         </div>
                         <div class="">
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">E1</kbd>
-                                <kbd class="kbd btn w-11">E2</kbd>
-                                <kbd class="kbd btn w-11">E3</kbd>
-                                <kbd class="kbd btn w-11">E4</kbd>
+                                <kbd id="E2" class="kbd btn w-11">E2</kbd>
+                                <kbd id="E3" class="kbd btn w-11">E3</kbd>
+                                <kbd id="E4" class="kbd btn w-11">E4</kbd>
+                                <kbd id="E1" class="kbd btn w-11">E1</kbd>
                             </div>
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">F1</kbd>
-                                <kbd class="kbd btn w-11">F2</kbd>
-                                <kbd class="kbd btn w-11">F3</kbd>
-                                <kbd class="kbd btn w-11">F4</kbd>
+                                <kbd id="F1" class="kbd btn w-11">F1</kbd>
+                                <kbd id="F2" class="kbd btn w-11">F2</kbd>
+                                <kbd id="F3" class="kbd btn w-11">F3</kbd>
+                                <kbd id="F4" class="kbd btn w-11">F4</kbd>
                             </div>
                         </div>
                     </div>
@@ -282,16 +283,16 @@
                         </div>
                         <div class="">
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">G1</kbd>
-                                <kbd class="kbd btn w-11">G2</kbd>
-                                <kbd class="kbd btn w-11">G3</kbd>
-                                <kbd class="kbd btn w-11">G4</kbd>
+                                <kbd id="G1" class="kbd btn w-11">G1</kbd>
+                                <kbd id="G2" class="kbd btn w-11">G2</kbd>
+                                <kbd id="G3" class="kbd btn w-11">G3</kbd>
+                                <kbd id="G4" class="kbd btn w-11">G4</kbd>
                             </div>
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">H1</kbd>
-                                <kbd class="kbd btn w-11">H2</kbd>
-                                <kbd class="kbd btn w-11">H3</kbd>
-                                <kbd class="kbd btn w-11">H4</kbd>
+                                <kbd id="H1" class="kbd btn w-11">H1</kbd>
+                                <kbd id="H2" class="kbd btn w-11">H2</kbd>
+                                <kbd id="H3" class="kbd btn w-11">H3</kbd>
+                                <kbd id="H4" class="kbd btn w-11">H4</kbd>
                             </div>
                         </div>
                     </div>
@@ -302,16 +303,16 @@
                         </div>
                         <div class="">
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">I1</kbd>
-                                <kbd class="kbd btn w-11">I2</kbd>
-                                <kbd class="kbd btn w-11">I3</kbd>
-                                <kbd class="kbd btn w-11">I4</kbd>
+                                <kbd id="I1" class="kbd btn w-11">I1</kbd>
+                                <kbd id="I2" class="kbd btn w-11">I2</kbd>
+                                <kbd id="I3" class="kbd btn w-11">I3</kbd>
+                                <kbd id="I4" class="kbd btn w-11">I4</kbd>
                             </div>
                             <div class="flex gap-48 mt-4">
-                                <kbd class="kbd btn w-11">J1</kbd>
-                                <kbd class="kbd btn w-11">J2</kbd>
-                                <kbd class="kbd btn w-11">J3</kbd>
-                                <kbd class="kbd btn w-11">J4</kbd>
+                                <kbd id="J1" class="kbd btn w-11">J1</kbd>
+                                <kbd id="J2" class="kbd btn w-11">J2</kbd>
+                                <kbd id="J3" class="kbd btn w-11">J3</kbd>
+                                <kbd id="J4" class="kbd btn w-11">J4</kbd>
                             </div>
                         </div>
                     </div>
@@ -333,28 +334,30 @@
                         </div>
                     </div>
                     <hr class="mt-2 border-dashed">
+
                     <div class="flex justify-between mt-2">
                         <div>
-                            <p>C2</p>
+                            <p><span>A2</span> </p>
                         </div>
                         <div>
-                            <p>Economy</p>
+                            <p><span>Economy</span></p>
                         </div>
                         <div>
-                            <p>550</p>
+                            <p><span>550</span> </p>
                         </div>
                     </div>
                     <div class="flex justify-between mt-2">
                         <div>
-                            <p>C2</p>
+                            <p><span>B2</span> </p>
                         </div>
                         <div>
-                            <p>Economy</p>
+                            <p><span>Economy</span></p>
                         </div>
                         <div>
-                            <p>550</p>
+                            <p><span>550</span> </p>
                         </div>
                     </div>
+
                     <hr class="mt-2">
                     <div class="flex justify-between mt-2">
                         <div>
@@ -391,8 +394,7 @@
                             class="input input-bordered w-full max-w-sl" />
                     </div>
                     <div class="mt-4">
-                        <button
-                            class="btn w-full bg-green-500 text-white font-extrabold border-2 border-green-500">Next</button>
+                        <button onclick="next()" id="next-button"class="btn w-full bg-green-500 text-white font-extrabold border-2 border-green-500">Next</button>
                     </div>
                     <div class="flex justify-between w-full mt-2 p-4">
                         <div>
@@ -408,7 +410,7 @@
         </section>
     </main>
     <!-- success confirmation section -->
-    <section id="success-screen" class="success flex justify-center items-center min-h-screen ">
+    <section id="success-screen" class="success flex justify-center items-center min-h-screen hidden">
         <div class="text-center bg-gray-200 p-4 rounded-3xl">
             <div class="flex justify-center items-center mb-4">
                 <img src="images/success.png" alt="">
@@ -423,7 +425,7 @@
         </div>
     </section>
     <!-- footer section -->
-    <footer id="footer-section" class="hidden">
+    <footer id="footer-section" class="">
         <footer class="p-10 bg-black text-white h-72 ">
             <div class="flex justify-between mt-8">
                 <aside>
@@ -455,7 +457,7 @@
             </div>
         </footer>
     </footer>
-    <script src="app.js"></script>
+    <script src="utility.js/app.js"></script>
 </body>
 
 </html>
